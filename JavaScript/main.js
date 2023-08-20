@@ -13,7 +13,7 @@ function cart(productName, productPrice) {
   cartProductsContainer.appendChild(li);
   li.classList.add('font-semibold')
   li.classList.add('text-lg')
-  li.innerText = cartItems + '. ' + productName + ' ' + productPrice.toFixed(2) + ' TK';
+  li.innerText = cartItems + '. ' + productName;
 }
 
 function getProductName(id) {
