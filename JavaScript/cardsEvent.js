@@ -5,7 +5,7 @@ const card4 = document.getElementById('card4');
 const card5 = document.getElementById('card5');
 const card6 = document.getElementById('card6');
 
-card1.addEventListener('click', () => {
+card1.addEventListener('click', function() {
   const productName = getProductName('card1');
   const productPrice = getProductPrice('card1');
 
